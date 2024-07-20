@@ -39,7 +39,7 @@ export default function SignupForm() {
       return;
     }
     // API Call
-    fetch('http://https://agrim-auth.onrender.com/email_verify_otp', {
+    fetch('https://agrim-auth.onrender.com/email_verify_otp', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -67,7 +67,7 @@ export default function SignupForm() {
       return;
     }
     // API Call
-    fetch('http://https://agrim-auth.onrender.com/verify', {
+    fetch('https://agrim-auth.onrender.com/verify', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -95,7 +95,7 @@ export default function SignupForm() {
     const formData = new FormData(event.target);
     const data = Object.fromEntries(formData.entries());
     // API Call
-    fetch('http://https://agrim-auth.onrender.com/signup', {
+    fetch('https://agrim-auth.onrender.com/signup', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

@@ -32,7 +32,7 @@ export default function StatusCheckForm() {
       data.recaptchaToken = recaptchaToken;
     }
     // API Call
-    fetch('http://https://agrim-grievance.onrender.com/check_status', {
+    fetch('https://agrim-grievance.onrender.com/check_status', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

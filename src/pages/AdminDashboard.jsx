@@ -20,7 +20,7 @@ export default function AdminDashboard() {
       const role = decodedToken.role;
       // API Call
       if (role === 'admin') {
-        fetchDetails(token, 'http://https://agrim-dashboard.onrender.com/admin_dashboard', setAdminDetails, setGrievances )
+        fetchDetails(token, 'https://agrim-dashboard.onrender.com/admin_dashboard', setAdminDetails, setGrievances )
       } else {
         handleUnauthorized();
       }
@@ -33,7 +33,7 @@ export default function AdminDashboard() {
     const token = sessionStorage.getItem('token');
     try {
       // API Call
-      const response = await fetch('http://https://agrim-grievance.onrender.com/update_grievance_status', {
+      const response = await fetch('https://agrim-grievance.onrender.com/update_grievance_status', {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${token}`,

@@ -2,7 +2,7 @@ export async function handleLogout() {
   const token = sessionStorage.getItem('token');
   try {
     // API Call
-    const response = await fetch('http://https://agrim-auth.onrender.com/logout', {
+    const response = await fetch('https://agrim-auth.onrender.com/logout', {
       method: 'POST',
       headers: {
         'Authorization': `Bearer ${token}`,

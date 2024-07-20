@@ -32,7 +32,7 @@ export default function UserLogin() {
       <Header links={links} />
       <div className="flex flex-grow">
         {/* <SideNavbar /> */}
-        <LoginForm fetchUrl="http://https://agrim-auth.onrender.com/login_user" title="User Login" />
+        <LoginForm fetchUrl="https://agrim-auth.onrender.com/login_user" title="User Login" />
       </div>
       <Footer />
     </div>

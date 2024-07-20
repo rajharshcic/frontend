@@ -33,7 +33,7 @@ export default function AdminLogin() {
       <Header links={links} />
       <div className="flex flex-grow">
         {/* <SideNavbar /> */}
-        <LoginForm fetchUrl="http://https://agrim-auth.onrender.com/login_admin" title="Admin Login" />
+        <LoginForm fetchUrl="https://agrim-auth.onrender.com/login_admin" title="Admin Login" />
       </div>
       <Footer />
     </div>

@@ -35,7 +35,7 @@ export default function GrievanceUnregisteredForm() {
 
   const sendRequest = (data) => {
     // API Call
-    fetch('http://https://agrim-grievance.onrender.com/add_grievance_unregistered', {
+    fetch('https://agrim-grievance.onrender.com/add_grievance_unregistered', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

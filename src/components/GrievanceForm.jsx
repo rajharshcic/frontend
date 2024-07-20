@@ -12,7 +12,7 @@ export default function GrievanceForm() {
 
   const sendRequest = (data) => {
     // API Call
-    fetch('http://https://agrim-grievance.onrender.com/add_grievance', {
+    fetch('https://agrim-grievance.onrender.com/add_grievance', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

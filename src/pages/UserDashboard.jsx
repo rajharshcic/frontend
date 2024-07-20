@@ -22,7 +22,7 @@ export default function UserDashboard() {
       const role = decodedToken.role;
       if (role === 'user') {
         // API Call
-        fetchDetails(token, 'http://https://agrim-dashboard.onrender.com/user_dashboard', setUserDetails, setGrievances )
+        fetchDetails(token, 'https://agrim-dashboard.onrender.com/user_dashboard', setUserDetails, setGrievances )
       } else {
         handleUnauthorized();
       }
